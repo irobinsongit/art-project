@@ -26,6 +26,15 @@ h1 {
   margin: 0;
 }
 
+p {
+  font-family: "Pridi", serif;
+}
+
+h2,
+h3 {
+  font-family: "Crimson Text", serif;
+}
+
 .hero h2 {
   font-family: "Pridi", serif;
   font-size: 35px;
@@ -51,6 +60,52 @@ h1 {
   font-weight: bolder;
 }
 
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 170px;
+  margin: 0 auto;
+}
+
+.grid-2-col img {
+  margin-right: 50px;
+}
+
+.grid-2-col h3 {
+  color: #262626;
+  font-family: Roboto Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+  opacity: 0.3;
+  margin: 0;
+}
+
+.grid-2-col h2 {
+  color: #30392f;
+  font-family: "Crimson Text", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 0;
+}
+
+.grid-2-col p {
+  color: #000;
+  font-family: "Pridi", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+main {
+  background-color: white;
+}
+
 footer {
   color: white;
   background-image: url("../images/footer.png");
@@ -65,14 +120,12 @@ footer h3 {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-  margin: 20px;
 }
 
 footer p,
 li {
   font-family: "Pridi", serif;
   font-size: 16px;
-  margin: 20px;
 }
 
 footer ul {
@@ -91,6 +144,13 @@ footer li {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
+}
+
+.grid-2-col section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 @media (max-width: 960px) {
@@ -108,5 +168,18 @@ footer li {
   .hero a {
     width: 60px;
     font-size: 10px;
+  }
+
+  .grid,
+  .grid-2-col {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 50px;
+  }
+
+  .grid-2-col img {
+    height: 380px;
+    width: 400px;
+    margin: 0 auto;
   }
 }
