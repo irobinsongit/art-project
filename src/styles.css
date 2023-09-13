@@ -1,31 +1,39 @@
-div {
-  background: darkgray;
+body {
+  background: black;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url("../images/herocover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   text-align: center;
-  padding: 200px;
-  width: 1280px;
-  height: 720px;
+  padding: 260px 0;
 }
 
 h1 {
-  color: #fff;
   font-family: "Roboto Serif", serif;
   font-size: 124px;
   font-weight: bold;
   letter-spacing: 1px;
-  margin: 0%;
+  margin: 0;
 }
 
-h2 {
-  color: #fff;
-  text-align: center;
+.hero h2 {
   font-family: "Pridi", serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0;
 }
 
-button {
+.hero a {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -33,7 +41,28 @@ button {
   font-size: 14px;
   letter-spacing: 3px;
   background: #fff;
-  font-weight: bold;
+  width: 120px;
   display: block;
   margin: 0 auto;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  .hero h1 {
+    font-size: 62px;
+  }
+
+  .hero h2 {
+    font-size: 17px;
+  }
+
+  .hero a {
+    width: 60px;
+    font-size: 10px;
+  }
 }
