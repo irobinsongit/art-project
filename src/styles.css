@@ -30,7 +30,10 @@ p {
   font-family: "Pridi", serif;
 }
 
-h2,
+h2 {
+  font-family: "Roboto Serif", serif;
+}
+
 h3 {
   font-family: "Crimson Text", serif;
 }
@@ -148,9 +151,107 @@ footer li {
 }
 
 .grid-2-col section {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+.secondary {
+  background: #f4f4f4;
+  padding: 80px;
+  text-align: center;
+}
+
+.secondary img {
+  width: 392px;
+}
+
+.secondary p {
+  margin: 30px;
+  text-align: left;
+  color: #161616;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.secondary h2 {
+  color: #30392f;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.secondary h3 {
+  color: #262626;
+  text-align: center;
+  font-family: Roboto Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+  opacity: 0.3;
+  margin: 0;
+}
+
+.sec-titles {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  line-height: 20px;
+}
+
+.sec-titles h2 {
+  font-family: "Crimson Text";
+}
+
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.card {
+  background: white;
+  padding-bottom: 30px;
+}
+
+.card h2 {
+  color: #30392f;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.card p {
+  color: #161616;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card a {
+  background: #30392f;
+  width: 240px;
+  height: 22px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  font-family: "Pridi", serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 3px;
 }
 
 @media (max-width: 960px) {
