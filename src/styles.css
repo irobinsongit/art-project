@@ -1,3 +1,5 @@
+/* font-family: 'Crimson Text', serif; */
+
 body {
   background: black;
 }
@@ -49,7 +51,49 @@ h1 {
   font-weight: bolder;
 }
 
-@media (max-width: 800px) {
+footer {
+  color: white;
+  background-image: url("../images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+footer h3 {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  margin: 20px;
+}
+
+footer p,
+li {
+  font-family: "Pridi", serif;
+  font-size: 16px;
+  margin: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+footer li {
+  list-style: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
