@@ -1,0 +1,39 @@
+div {
+  background: darkgray;
+  text-align: center;
+  padding: 200px;
+  width: 1512px;
+  height: 919px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Roboto Serif", serif;
+  font-size: 124px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0%;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Pridi", serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: "Pridi", serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  background: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
