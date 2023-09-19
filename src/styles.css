@@ -300,6 +300,7 @@ iframe {
 @media (max-width: 960px) {
   .hero {
     width: 100%;
+    background-size: cover;
   }
 
   .hero h1 {
@@ -316,16 +317,34 @@ iframe {
   }
 
   .grid,
-  .grid-2-col,
-  .grid-3-col {
+  .grid-2-col {
     grid-template-columns: 1fr;
     grid-gap: 20px;
-    padding: 50px;
+    padding: 20px;
+  }
+
+  .secondary {
+    padding: 0px;
+  }
+
+  .grid-3-col {
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-section {
+    padding: 0px;
   }
 
   .grid-2-col img {
-    height: 380px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     margin: 0 auto;
+  }
+
+  iframe {
+    width: 300px;
+    height: 500px;
+    background-size: cover;
   }
 }
