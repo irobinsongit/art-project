@@ -298,9 +298,10 @@ iframe {
 }
 
 @media (max-width: 960px) {
-  header {
-    padding: 60px 0;
+  .hero {
+    width: 100%;
   }
+
   .hero h1 {
     font-size: 62px;
   }
@@ -315,7 +316,8 @@ iframe {
   }
 
   .grid,
-  .grid-2-col {
+  .grid-2-col,
+  .grid-3-col {
     grid-template-columns: 1fr;
     grid-gap: 20px;
     padding: 50px;
